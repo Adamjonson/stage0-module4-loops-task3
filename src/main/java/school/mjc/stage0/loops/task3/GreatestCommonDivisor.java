@@ -11,7 +11,7 @@ public class GreatestCommonDivisor {
                     }
                 }
             } else {
-                gcd = 0;
+                gcd = first;
             }
         } else {
             if (first != 0) {
@@ -21,7 +21,7 @@ public class GreatestCommonDivisor {
                     }
                 }
             } else {
-                gcd = 0;
+                gcd = second;
             }
 
 
